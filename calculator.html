@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en"><link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="../default/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/bootswatch.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div class="page-header">
+    <h1>Calculator</h1>
+    </div>
+<div class="cotainer">
+
+    <form class="well" action="operation.php" method="post">
+        <div class="form-group">
+        <label class="control-label">Number 1</label>
+        <input class="input-xlarge" type="number" name="number1">
+</div>
+        <label class="control-label">Number 2</label>
+        <input type="number" name="number2">
+
+<div class="controls">
+        <input type="radio" name="operation" value="addition" checked>
+        <label>Addition</label>
+</div>
+        <div class="controls">
+        <input type="radio" name="operation" value= "Subtraction">
+        <label >Subtraction</label>
+        </div>
+        <div class="controls">
+        <input type="radio" name="operation" value="multiplication">
+        <label >multiplication</label>
+</div>
+        <div class="controls">
+        <input type="radio" name="operation" value= "division" >
+        <label >Division</label>
+            </div>
+        <input type="submit">
+    </form>
+</div>
+
+
+
+</body>
+</html>
